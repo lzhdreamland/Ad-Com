@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SessionManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+@property (strong, nonatomic) NSUserDefaults *defaults;
 @end
 

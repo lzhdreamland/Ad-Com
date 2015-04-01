@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  HistoryConnectorsViewController.h
 //  Capstone_Modified
 //
 //  Created by ZihaoLin on 1/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface HistoryConnectorsViewController : UIViewController
 
 @end
-

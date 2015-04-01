@@ -1,0 +1,14 @@
+	Capstone Project Manual:
+
+1.Table Structure:
+Local DB:profileList.sql 
+
+TABLE profiles(receiver_name text,profilename text,connectedname text,connectedtime text)
+
+TABLE contactInfo(contact_name text,displayname text,connectedtime text);
+
+TABLE receivedMessage(messageid text,receiver_name text,protocol text,sendtime text,sendname text,textcontent text,hoplist text,longitude text,latitude text,address text)
+
+ /*TABLE messageTrack(messageid text ,sendtime text,sendname text);*/
+
+TABLE sendMessage(messageid text primary key,send_name text,sendtime text,protocoltype text,destpeer text,textcontent text,longitude text,latitude text,address text)
